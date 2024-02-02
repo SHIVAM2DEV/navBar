@@ -4,12 +4,11 @@
 }
 
 .container{
-    border: 2px solid rgb(83, 83, 83);
-    background-color: rgb(65, 65, 65);
-    border-radius:5px ;
 
 }
-
+nav{
+    background-color: rgb(65, 65, 65);
+}
 .elements, ul{
     display: flex;
     list-style: none;
@@ -19,11 +18,68 @@
 
 }
 ul,a{
-    padding: 5px;
     text-decoration: none;
-    color: whitesmoke;
+    color: whitesmoke; 
+}
+ li{
+    margin: 5px 0 5px 3px;
+    padding: 5px;
+ }
+
+.barContainer{
+    /* border: 2px solid red; */
+    /* min-height: 30vh; */
 }
 
-.elements{
-    margin: 5px 0 5px 3px;
+.bargraph img{
+    margin-top: 1px;
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    
+}
+
+.grid-item{
+    border: 2px solid red;
+    /* padding: 10px; */
+     width:204px;
+     height: 198px;
+     /* justify-content: center; */
+     margin: 5px 0 0 50px;
+    /* height: 150px; */
+}
+
+.grid-item1 img{
+    width: 200px;
+}
+
+
+.grid-item2 img{
+    width: 200px;
+}
+
+
+.grid-item3 img{
+    width: 200px;
+}
+
+
+.grid-item4 img{
+    width: 200px;
+}
+
+
+.grid-item5 img{
+    width: 200px;
+}
+
+
+.grid-item6 img{
+    width: 200px;
 }
